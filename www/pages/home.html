@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!--Import Google Icon Font-->
+    <link href="../css/material_icons.css" rel="stylesheet">
+   
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="../css/materialize.min.css">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Hello World</title>
+</head>
+<style type="text/css">
+    .card .card-content .card-title {
+        display: block;
+        margin-bottom: 0px;
+        line-height: 28px;
+    }
+
+    .card .card-content p {
+        height: 28px;
+        padding: 3px;
+        white-space:wrap;
+    }
+
+    .card .card-content .card-title .material-icons {
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 50px;
+        line-height: 1;
+        color: #0097a7;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+        -webkit-font-feature-settings: 'liga';
+        -webkit-font-smoothing: antialiased;
+    }
+</style>
+<body>
+    <div class="app">
+        <nav class="deep-purple darken-2">
+            <div class="nav-wrapper white-text">
+              
+              <a href="#!" class="brand-logo right white-text"><i class="material-icons">search</i></a>
+
+              <ul class="right hide-on-med-and-down watu-text">
+                <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+                <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+                <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+                <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+              </ul>
+            </div>
+        </nav>
+
+
+        <div class="container">
+            <div class="row">
+               
+            </div>
+
+             <div class="row">
+                <div class="col s4" onclick="pages.contacts();">
+                  <div class="card white darken-1">
+                    <div class="card-content watu-text">
+                      <span class="card-title"><i class="material-icons">contacts</i></span>
+                      <p>Ponds</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s4" onclick="pages.explore();">
+                  <div class="card white darken-1">
+                    <div class="card-content watu-text">
+                      <span class="card-title"><i class="material-icons">explore</i></span>
+                      <p>Explore</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col s4" onclick="pages.support();">
+                  <div class="card white darken-1">
+                    <div class="card-content watu-text">
+                      <span class="card-title"><i class="material-icons">help</i></span>
+                      <p>Support</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+             <div class="row">
+                <div class="col s4" onclick="pages.inbox();">
+                  <div class="card white darken-1">
+                    <div class="card-content watu-text">
+                      <span class="card-title"><i class="material-icons">chat</i></span>
+                      <p>chat</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col s4" onclick="pages.account();">
+                  <div class="card white darken-1">
+                    <div class="card-content watu-text">
+                      <span class="card-title"><i class="material-icons">account_box</i></span>
+                      <p>Account</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col s4" onclick="pages.settings();">
+                  <div class="card white darken-1">
+                    <div class="card-content watu-text">
+                      <span class="card-title"><i class="material-icons">settings_applications</i></span>
+                      <p>settings</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="row">
+              <div class="col s4" onclick="pages.market();">
+                <div class="card white darken-1">
+                  <div class="card-content watu-text">
+                    <span class="card-title"><i class="material-icons">shop</i></span>
+                    <p>Market</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s4" onclick="pages.information();">
+                <div class="card white darken-1">
+                  <div class="card-content watu-text">
+                    <span class="card-title"><i class="material-icons">format_align_center</i></span>
+                    <p>Info</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col s4" onclick="pages.jobs();">
+                <div class="card white darken-1">
+                  <div class="card-content watu-text">
+                    <span class="card-title"><i class="material-icons">format_paint</i></span>
+                    <p>Jobs</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+            <div class="row">
+              <div class="col s12 m7">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="../img/fish-farm.jpg">
+                    <span class="card-title">ShowCase</span>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+      <!-- Compiled and minified JavaScript -->
+    <script src="../js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/fastclick.js"></script>
+    <script type="text/javascript" src="../js/iscroll-infinite.js"></script>
+      <!-- jQuery Pull to Refresh plugin -->
+    <script src='../js/p2r.js' type='text/javascript' defer></script>
+    <script src='../js/blazy.js' type='text/javascript'></script>
+    <script src="../js/init.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript">
+        //app.initialize();
+    </script>
+</body>
+
+</html>

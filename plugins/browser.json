@@ -1,0 +1,79 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "com.kodmic.newproject"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.fish.kodmic"
+        }
+    }
+}
